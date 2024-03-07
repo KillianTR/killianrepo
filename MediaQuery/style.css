@@ -19,7 +19,6 @@ body {
     background: #4A89D0;
     width: 33%;
     height: 50px;
-    display: inline-block;
 }
 
 .box-4 {
@@ -32,26 +31,30 @@ body {
 
 @media (768px <= width < 1024px) {
     .box-1 {
-    background: #FEA432;
-    width: 50%;
+    width: 49.75%;
     height: 200px;
     display: inline-block;
     }
+    .box-3 {
+        display: inline-block;
+    }
+    
 }
 
 
 @media (320px <= width < 768px) {
     .box-1 {
-        background: #FEA432;
-        width: 50%;
+        width: 49.75%;
         height: 100px;
+    }
+    .box-3 {
+        display: block;
     }
 }
 
 @media (width < 320px) {
     .box-1 {
-        background: #FEA432;
-        width: 50%;
+        width: 49.75%;
         height: 100px;
     }
 }
