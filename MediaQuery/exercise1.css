@@ -1,0 +1,22 @@
+body {
+    background-color: grey;
+}
+
+@media (768px <= width < 1024px) {
+    body {
+        background-color: rebeccapurple;
+    }
+}
+
+
+@media (320px <= width < 768px) {
+    body {
+        background-color: #FEA432;
+    }
+}
+
+@media (width < 320px) {
+    body {
+        background: aqua;
+    }
+}

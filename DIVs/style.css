@@ -1,0 +1,44 @@
+div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    border: 2px solid black;
+}
+
+.div {
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.div-1 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.div-2 {
+    position: relative;
+    top: 0px;
+    left: 40px;
+}
+
+.div-3 {
+    position: relative;
+    bottom: 130px;
+    left: -50px;
+}
+
+.div-4 {
+    position: relative;
+    bottom: 180px;
+    left: 40px;
+}

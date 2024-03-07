@@ -1,0 +1,33 @@
+body {
+    background: #E6E6FA;
+}
+
+span {
+    background-color: #00BFFF;
+    font-weight: bold;
+}
+
+thead tr th {
+    padding-top: 7.5px;
+}
+
+table {
+    width: 450px;
+    background-color: #FFE4C4;
+    border: solid 5px black;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+tbody tr td {
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+}
+
+tfoot tr td {
+    background-color: #00BFFF;
+    font-weight: bold;
+}

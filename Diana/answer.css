@@ -1,0 +1,63 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    height: 500px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.circle {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.circle-red {
+    background-color: red;
+    box-shadow: 2px 1px 25px black, ;
+}
+
+.circle-white {
+    background-color: whitesmoke;
+}
+
+.border {
+    height: 500px;
+    width: 500px;
+    background-color: gainsboro;
+}
+
+.circle-1 {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: -474px;
+    left: 25px;
+}
+
+.circle-2 {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: -474px;
+    left: 25px;
+}
+
+.line-1 {
+    width: 5px;
+    height: 500px;
+    background-color: black;
+    position: relative;
+    top: -1350px;
+    left: 250px;
+}
+
+.line-2 {
+    width: 500px;
+    height: 5px;
+    background-color: black;
+    position: relative;
+    top: -1600px;
+}

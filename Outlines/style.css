@@ -1,0 +1,14 @@
+.box {
+    background-color: red;
+    margin: 100px;
+    outline: green dotted 8px;
+    outline-offset: 0px;
+    width: 50%;
+    height: 50%;
+    font-size: 20px;
+} 
+
+.box:hover {
+    outline-offset: 0px;
+    outline: black dotted 5px;
+}
