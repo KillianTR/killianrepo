@@ -1,0 +1,22 @@
+.container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 2fr repeat();
+}
+
+.box-1 {
+
+}
+
+.box-1 {
+
+}
+
+.box-1 {
+
+}
+
+.box-1 {
+
+}
