@@ -2,14 +2,14 @@ body {
     background: #f5f5f5;
 }
 
-.box-1 {
+.orange-item {
     background: #FEA432;
-    width: 25%;
+    
     height: 100px;
     display: inline-block;
 }
 
-.box-2 {
+.yellow-item {
     background: #DBEC00;
     width: 50%;
     height: 200px;
@@ -29,14 +29,14 @@ body {
 }
 
 
-@media (768px <= width < 1024px) {
-    .box-1 {
-    width: 49.75%;
-    height: 200px;
+@media (width >= 768px) {
+    .orange-item {
+    width: 49%;
     display: inline-block;
     }
-    .box-3 {
-        display: inline-block;
+
+    .yellow-item {
+        height: 200px;
     }
     
 }

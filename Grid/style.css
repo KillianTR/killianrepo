@@ -1,61 +1,100 @@
 .container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 50px auto;
-    margin: 0px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    grid-auto-rows: minmax(50px, auto);
+    height: 100vh;
 }
 
 .box {
+    display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
-.box-1 {
-    background-color: black;
-    color: white;
-}
-
-.box-2 {
-    background-color: #F03D50;
-    color: white;
-}
-
-.box-3 {
-    background-color: #4F86C7;
-    color: white;
-}
-
-.box-4 {
-    background-color: #24344B;
-    color: white;
-}
-
-.box-5 {
-    background-color: #FFD06A;
-}
-
-.box-6 {
-    background-color: #4EBC97;
-}
-
-.box-7 {
-    background-color: #C1E3E5;
-}
-
-
-/* Laptop */
-@media (768px <= width < 1024px) {
-    .container {
-        height: 100vh;
+    .box-1 {
+        grid-column: 1 / 1;
+        grid-row: 1;
     }
-}
 
-/* Tablet */
-@media (425px <= width < 768px) {
-    
-}
+    .box-2 {
+        grid-column: 2 / 4;
+        grid-row: 1;
+    }
 
-/* Mobile */
-@media (425px < width) {
-    
-}
+    .box-3 {
+        grid-column: 1;
+        grid-row: 2 / 5;
+    }
+
+    .box-4 {
+        grid-column: 2;
+    grid-row: 2 / 5;
+    }
+
+    .box-5 {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    .box-6 {
+        grid-column: 3;
+        grid-row: 4;
+    }
+
+    .box-7 {
+        grid-column: -1;
+        grid-row: 4;
+    }
+
+    .box-1 {
+        background-color: black;
+        color: white;
+    }
+
+    .box-2 {
+        background-color: #F03D50;
+        color: white;
+    }
+
+    .box-3 {
+        background-color: #4F86C7;
+        color: white;
+        grid-row: 50%;
+    }
+
+    .box-4 {
+        background-color: #24344B;
+        color: white;
+    }
+
+    .box-5 {
+        background-color: #FFD06A;
+    }
+
+    .box-6 {
+        background-color: #4EBC97;
+    }
+
+    .box-7 {
+        background-color: #C1E3E5;
+    }
+
+    /* Laptop */
+    @media (768px <= width < 1024px) {
+        .container {
+            height: 100vh;
+        }
+    }
+
+    /* Tablet */
+    @media (425px <= width < 768px) {
+        
+    }
+
+    /* Mobile */
+    @media (425px < width) {
+        
+    }
