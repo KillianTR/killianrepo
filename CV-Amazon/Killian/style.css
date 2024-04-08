@@ -1,0 +1,423 @@
+/* Generic Body */
+body {
+    color: #000;
+    margin-top: 0;
+}
+
+h2 {
+    color: rgba(88, 88, 243, 0.715);
+    font-size: medium;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+/* Quan un enllaç hagui sigut visitat */
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #963;
+}
+
+
+/* Navegador header*/
+.nav-logo-large #nav-logo {
+    width: 111px;
+    height: 35px;
+}
+
+#nav-logo {
+    position: absolute;
+    left: 2px;
+    bottom: -5px;
+    display: block;
+    text-indent: -500px;
+    z-index: 95;
+}
+
+#nav-cross-shop {
+    position: relative;
+    padding: 0;
+    z-index: 75;
+    min-height: 39px;
+    height: 39px;
+    zoom: 1;
+    margin: 0 0 0 10px;
+}
+
+#nav-prime-ttt {
+    position: absolute;
+    z-index: 96;
+    font-weight: 700;
+    text-decoration: underline;
+    padding: 3px 1px 4px;
+    font-size: 11px;
+    left: 77px;
+    bottom: -8px;
+    color: #48a3c6;
+}
+
+#navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1em;
+    zoom: 1;
+    min-width: 1000px;
+    margin: 0 -8px;
+}
+
+#nav-cross-shop-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: -4px;
+    left: 137px;
+    white-space: nowrap;
+    line-height: 32px;
+    z-index: 95;
+}
+
+#nav-cross-shop-links .nav-xs-link {
+    display: inline;
+    border-left: 1px solid #ddd;
+    margin-left: 0.5em;
+    padding-left: 0.75em;
+    font-family: arial, "sans-serif";
+}
+
+.nav-subnav #nav-bar-inner {
+    height: 77px;
+    background-position: 0 -443px;
+}
+
+#nav-bar-inner {
+    border-top: 1px solid #ddd;
+}
+
+.nav-sprite {
+    background-image: url(./Content/BeaconSprite-US-01.png);
+    background-position: -119px -9px;
+}
+
+#navbar {
+    font-family: arial, "sans-serif";
+    font-size: 12px;
+    line-height: 1em;
+    zoom: 1;
+    min-width: 1000px;
+    margin: 0 -8px;
+}
+
+#nav-cross-shop-links .nav-xs-link {
+    display: inline;
+    border-left: 1px solid #ddd;
+    margin-left: 0.5em;
+    padding-left: 0.75em;
+    font-family: arial, "sans-serif";
+}
+
+
+/* Presentació */
+
+#main-image-widget.size0 #main-image-wrapper-outer, #main-image-widget.size0 #main-image-wrapper, #main-image-widget.size0 #main-image-unavailable, #main-image-widget.size0 #noFlashContent {
+    width: 355px;
+}
+
+#main-image-wrapper-outer {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+table.productImageGrid {
+    margin: 0 15px 15px 0;
+}
+
+.nom {
+    padding: 0.25em 0;
+    font-size: .86em;
+}
+
+/* Títol */
+
+h1 {
+    display: block;
+    font-size: 20px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.presentacio {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+/* Rating Stars */
+
+.s_star_5_0 {
+    width: 65px;
+    height: 13px;
+}
+
+.swSprite {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url(./Content/sprite-site-wide-2._V146303866_.png) no-repeat;
+    background-position: -30px 0;
+}
+
+/* Llista */
+
+ul {
+    font-family: arial, verdana, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+ul li {
+    margin: 0.5em 0;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+/* Taula */
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+body, td, th {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: small;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+#main-image {
+    display: inline;
+    cursor: pointer;
+}
+
+/* Caixa Es compra junt amb freqüència */
+
+.bxgyBundle td.plus {
+    text-align: center;
+    padding: 0 5px;
+    font-size: 105%;
+    font-weight: 700;
+    color: #999;
+}
+
+.bxgyBundle td {
+    padding: 0;
+    vertical-align: middle;
+    border: 0;
+}
+
+div {
+    display: block;
+}
+
+div.content form {
+    margin: 0;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em;
+}
+
+
+/*Llista frequently */
+
+legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+ul.bxgySelectAsins, ul.bxgyInfoBlock, ul.bxgyInfoBlockNonJS, #fbt_item_details {
+    margin: 0;
+    list-style: none;
+    padding: 0 0 0.75em 1.75em;
+    clear: left;
+    width: 78%;
+    outline: none;
+}
+
+fieldset.forScreenreaders {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+}
+fieldset.forScreenreaders {
+    clear: left;
+}
+
+/* user agent stylesheet */
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+}
+
+.bxgySelectAsins input.check, .bxgyInfoBlock input.check, ul.bxgyInfoBlockNonJS input.check, #fbt_x_check, #fbt_y_check, #fbt_z_check {
+    position: absolute;
+    left: 10px;
+}
+
+
+/* Llista skills */
+
+b {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.zg_hrsr {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.zg_hrsr_item {
+    margin: 0 0 0 20px;
+}
+
+/* HR */
+
+hr.bucketDivider {
+    clear: left;
+}
+
+hr {
+    margin-left: 0;
+}
+
+hr {
+    border-top: 1px dashed #999;
+    height: 1px;
+    color: #fff;
+    margin: 3px 0;
+    border-style: dashed none none none;
+    background-color: #fff;
+}
+
+hr {
+    border-top: 1px solid #ccc !important;
+}
+
+
+
+
+/* Product Description */
+
+div.bucket {
+    padding: 5px 0;
+}
+
+div {
+    display: block;
+}
+
+div.bucket div.content {
+    margin: 0.5em 0 0 25px;
+}
+
+#productDescription h3.productDescriptionSource {
+    font-weight: 400;
+    color: #333;
+    font-size: 1.23em;
+    margin: 0.75em 0 0.375em -15px;
+    clear: left;
+}
+
+#productDescription .emptyClear {
+    clear: left;
+    height: 0;
+    font-size: 0;
+}
+
+#productDescription div.productDescriptionWrapper {
+    margin: 0 0 1em;
+}
+
+/* Reviews */
+.reviews, .reviews body, .reviews p, .reviews div, .reviews span, .reviews table, .reviews a, .reviews a:active, .reviews a:visited, .reviews a:focus, .reviews input {
+    font-family: Arial, helvetica neue, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.reviews .ml10 {
+    margin-left: 10px;
+}
+
+.reviews .fl {
+    float: left;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* <uniquifier>: Use a unique and descriptive class name
+ <weight>: Use a value from 300 to 800 */
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+:root{
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+.ov-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fefefe;
+    z-index: 999999;
+    height: 100%;
+    width: 100%;
+    overflow: hidden !important;
+}
+
+.ov-preloader .ov-icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(https://spicy4tuna.com/wp-content/uploads/2024/03/logo-preloader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: -50px 0 0 -50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f2f2f2;
+    height: 100vh;
+    display: flex;
+}
+
+.texts{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.name{
+    font-size: 3rem;
+    margin-bottom: .5em;
+}
+
+.paragraph{
+    font-size: 2rem;
+    font-weight: 300;
+    --clippy: circle(0% at 50% 50%);
+}
+
+.item{
+    position: relative;
+    padding-left: 1rem;
+    transition: color .1s;
+}
+
+.item::before{
+    content: "";
+    display: block;
+    background: slateblue;
+    width: 120%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    clip-path: var(--clippy);
+    transition: clip-path 2s;
+}
+
+.paragraph::before{
+    background: #fc8a2c;
+}
+
+.name:hover::before{
+    clip-path: polygon(0 0, 85% 0, 99% 100%, 0 100%);
+}
+
+.name:hover + .paragraph::before{
+    clip-path: circle(150% at 50% 50%);
+    transition: clip-path 1.5s 2s;
+}
+
+.name:hover,
+.name:hover + .paragraph{
+    color: #fff;
+}
