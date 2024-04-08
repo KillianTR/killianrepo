@@ -1,0 +1,27 @@
+/* Estilos para las imágenes */
+.card {
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+
+.card img {
+    width: 200px;
+    height: 300px;
+    transition: transform 1.1s ease;
+    -webkit-transition: transform 1.1s ease;
+    -moz-transition: transform 1.1s ease;
+    -ms-transition: transform 1.1s ease;
+    -o-transition: transform 1.1s ease;
+}
+
+/* Estilos para el efecto hover */
+/* .card:hover img {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+} */
